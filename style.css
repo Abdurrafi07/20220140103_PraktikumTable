@@ -1,0 +1,92 @@
+/* Style untuk judul halaman */
+h1 {
+    text-align: center;
+    color: #333; /* Warna teks untuk judul halaman */
+}
+
+/* Gaya untuk judul tabel */
+caption {
+    caption-side: top; /* Judul tabel di atas tabel */
+    text-align: center; /* Teks rata tengah */
+    font-size: 24px; /* Ukuran font */
+    font-weight: bold; /* Tebal */
+    padding: 10px; /* Padding */
+    background-color: #8b0000; /* Warna latar belakang merah darah */
+    color: #fff; /* Warna teks putih */
+    border: 1px solid #000; /* Border */
+    margin-bottom: -1px; /* Margin bawah */
+    border-radius: 5px 5px 0 0; /* Sudut bulat hanya di bagian atas */
+    margin-top: -1px; /* Margin atas */
+}
+
+
+/* Gaya tambahan untuk header tabel */
+th {
+    color: #333; /* Warna teks */
+    font-size: 18px; /* Ukuran font */
+    text-align: center; /* Teks di tengah kolom */
+}
+
+/* Gaya tambahan untuk sel data */
+td {
+    color: #daa520; /* Warna teks emas */
+    font-weight: bold; /* Membuat teks menjadi tebal */
+    text-align: center; /* Teks di tengah kolom */
+}
+
+/* Gaya tambahan untuk sel gambar */
+td img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent; /* Menjadikan latar belakang gambar transparan */
+}
+
+/* Style untuk tabel */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000; /* Tambahkan border pada tabel */
+    border-radius: 5px; /* Sudut bulat untuk tabel */
+    border-top: none; /* Hapus border atas tabel */
+}
+
+/* Style untuk header tabel */
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: center; /* Teks di tengah kolom */
+    border: none; /* Hapus garis pada header kolom */
+}
+
+/* Gaya untuk header kolom */
+td {
+    background-color: #F5F5DC; /* Warna latar belakang krem muda untuk semua kolom */
+    text-align: center; /* Teks di tengah */
+    font-size: 20px; /* Ukuran font besar */
+    vertical-align: middle; /* Teks di tengah kolom secara vertikal */
+    border: none; /* Hapus garis pada sel data */
+}
+
+
+/* Style untuk sel data */
+td {
+    padding: 8px;
+}
+
+/* Style untuk sel gambar */
+td img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style untuk baris tabel saat hover */
+tr:hover td {
+    background-color: #8b0000; /* Warna latar belakang merah darah saat hover */
+    color: #fff; /* Warna teks putih saat hover */
+}
+
